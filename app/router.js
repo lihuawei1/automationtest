@@ -21,7 +21,7 @@ module.exports = app => {
   // 获取用户订阅得频道列表
   router.post('/user/:userId/subscription', controller.user.getSubscriptions);
   // 阿里云 VOD
-  router.get('/user/CreateUploadVideo', auth, controller.vod.createUploadVideo);// 获取视频上传地址和凭证
+  router.get('/user/CreateUploadVideo', auth, controller.vod.createUploadVideo);// 获取视频上传地址和凭证11111
   router.get('/user/RefreshUploadVideo', auth, controller.vod.refreshUploadVideo);// 刷新视频上传凭证
   // 创建视频
   router.post('/videos', auth, controller.video.createVideo);
