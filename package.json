@@ -1,5 +1,5 @@
 {
-  "name": "youtubeclone-backend",
+  "name": "automationtest",
   "version": "1.0.0",
   "description": "",
   "private": true,
@@ -28,8 +28,8 @@
     "node": ">=10.0.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-youtubeclone-backend",
-    "stop": "egg-scripts stop --title=egg-server-youtubeclone-backend",
+    "start": "egg-scripts start --daemon --title=egg-server-automationtest",
+    "stop": "egg-scripts stop --title=egg-server-automationtest",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
     "test": "npm run lint -- --fix && npm run test-local",
